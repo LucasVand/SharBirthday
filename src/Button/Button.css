@@ -1,0 +1,17 @@
+.buttonCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    --shadowSize: 0.1em;
+    margin: 1em;
+    background-color: var(--primary);
+    box-shadow: var(--shadowSize) var(--shadowSize) var(--shadowSize) var(--bottomShadow), calc(var(--shadowSize) * -1) calc(var(--shadowSize) * -1) var(--shadowSize) var(--topShadow);
+    border-style: none;
+    color: var(--secondary);
+    user-select: none;
+
+}
+
+.buttonCont:active {
+    --shadowSize: 0.05em !important;
+}

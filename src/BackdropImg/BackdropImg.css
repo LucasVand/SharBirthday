@@ -1,0 +1,37 @@
+.backdropImg {
+    --shadowSize: 0.2em;
+    border-color: var(--secondary);
+    border-style: solid;
+    animation: idle 10s linear infinite both;
+    box-shadow: var(--shadowSize) var(--shadowSize) var(--shadowSize) var(--bottomShadow), calc(var(--shadowSize) * -1) calc(var(--shadowSize) * -1) var(--shadowSize) var(--topShadow);
+    transition: width 0.3s, height 0.3s;
+
+}
+
+.backdropImg.selected {
+    position: absolute;
+    left: 20%;
+    z-index: 100;
+}
+
+@keyframes idle {
+    0% {
+        scale: 1;
+        transform: rotate(0deg);
+    }
+
+    25% {
+        scale: 1.03;
+        transform: rotate(7deg);
+    }
+
+    75% {
+        scale: 1.05;
+        transform: rotate(-7deg);
+    }
+
+    100% {
+        scale: 1.0;
+        transform: rotate(0deg);
+    }
+}

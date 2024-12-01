@@ -1,0 +1,23 @@
+.title {
+  text-align: center;
+  font-size: 3em;
+  font-family: cursive;
+  font-weight: 1000;
+}
+
+h1 {
+  margin: 0;
+}
+
+.cont {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.pictureCont {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}

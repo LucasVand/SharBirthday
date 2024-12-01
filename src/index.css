@@ -1,0 +1,29 @@
+:root {
+  --primary: #7b5a8b;
+  --secondary: #83d3c7;
+  --topShadow: #8a6399;
+  --bottomShadow: #53385e;
+
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--secondary);
+  background-color: var(--primary);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+  height: 100dvh;
+  width: 100dvw;
+  user-select: none;
+}
+
+h3 {
+  user-select: none;
+}
