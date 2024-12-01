@@ -2,7 +2,7 @@
     --shadowSize: 0.2em;
     border-color: var(--secondary);
     border-style: solid;
-    animation: idle 10s linear infinite both;
+    animation: idle 10s linear infinite;
     box-shadow: var(--shadowSize) var(--shadowSize) var(--shadowSize) var(--bottomShadow), calc(var(--shadowSize) * -1) calc(var(--shadowSize) * -1) var(--shadowSize) var(--topShadow);
     transition: width 0.3s, height 0.3s;
 
